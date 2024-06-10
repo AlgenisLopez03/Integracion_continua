@@ -1,5 +1,5 @@
 const greet = require('./index');
 
-test('should return ¡Hola Mundo!', () => {
+test('Debe de retornar ¡Hola Mundo!', () => {
     expect(greet()).toBe('¡Hola Mundo!');
 });
