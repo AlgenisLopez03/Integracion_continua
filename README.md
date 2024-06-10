@@ -1,4 +1,4 @@
-En esta practica, vamos a crear un pipeline (secuencia de tareas automatizadas) en el cual tendremos un programa hola mundo en javascript (o en el lenguaje que desee) con su prueba unitaria. Al subir el repositorio a la rama de desarrollo, se debe de ejecturar la prueba unitaria y si pasa la prueba unitaria, se puedan integrar los cambios a la rama main.
+En esta practica, vamos a crear un pipeline (secuencia de tareas automatizadas) en el cual tendremos un programa hola mundo en javascript (o en el lenguaje que desee) con su prueba unitaria.<br> Al subir el repositorio a la rama de desarrollo, se debe de ejecturar la prueba unitaria y si pasa la prueba unitaria, se puedan integrar los cambios a la rama main.
 
 Se requiere lo siguiente:
 1 - Crear un repositorio local con la rama main y la rama de dev
