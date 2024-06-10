@@ -5,25 +5,26 @@ on:
     branches:
       - main
       - dev
-    pull_request:
-      branches:
+  pull_request:
+    branches:
       - main 
       - dev
+
 jobs: 
-build:
-  runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-  steps:
-  - name: Checkout repository
-    uses: actions/checkout@v3
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-  - name: Setup Node.js
-    uses: actions/checkout@v3
-    with: 
-    node-version: '16'
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
-  - name: Install dependencies
-    run: npm install
+      - name: Install dependencies
+        run: npm install
 
-  - name: Run tests
-    run: npm test
+      - name: Run tests
+        run: npm test
